@@ -4,6 +4,6 @@ Description: Page about my hobby
 ---
 
 Min hobby
-==================
+-----------------
 
-Jag har sedan innan jag kunde gå sprungit orientering. Det är en härlig sport ute i skogen med utmaningar för både kropp och knopp.
+Cirkus är tyvärr både jobb och hobby. Än så länge vet jag inte om programmering kommer ta över platsen som jobbet eller hobbyn.
