@@ -5,8 +5,7 @@ body {
 * {
     box-sizing: border-box;
     border: 0 none;
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
 }
 
 ol, ul {
@@ -30,6 +29,9 @@ body {
 
 .main {
     flex: 1 0 auto;
+    max-width: 80%;
+    justify-self: center;
+    margin: auto;
 }
 
 .header, .footer {
@@ -45,8 +47,12 @@ body {
 
 /* Title */
 
-.title, .logo {
-    padding: 3em 3em 3em 0;
+.logo {
+    padding: 1em 1em 1em 0;
+}
+
+.title {
+    padding: 2em 2em 2em 0;
 }
 
 @media (max-width: 767px) {
@@ -69,12 +75,24 @@ body {
     font-style: italic;
 }
 
+/* Navbar */
+
+.fa-home {
+    border-bottom: #111 1px solid;
+}
+
+.active > * {
+    text-decoration: none;
+    border-bottom: #111 3px double;
+    }
+
 /* Footer */
 
 .footer {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: aqua;
 }
 
 .footer a {
@@ -99,10 +117,15 @@ p, td, th, li, dd {
     word-wrap: break-word;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 5vmin;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
 }
+
 
 img {
     max-width: 100%;
