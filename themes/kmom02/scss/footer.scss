@@ -1,0 +1,17 @@
+.footer {
+    justify-content: space-between;
+    border-top: 3px solid rgb(0, 0, 0);
+    padding: 0.2rem;
+    margin-top: auto;
+    background-color: $background-alternative-color;
+
+    * {
+        color: $font-alternative-color;
+    }
+}
+
+.social {
+    font-size: 2rem;
+    align-self: center;
+    margin: 1px;
+}
