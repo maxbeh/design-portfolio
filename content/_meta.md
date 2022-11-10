@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3
-      icon: github
+      icon: fab fa-github
     - title: Link till mitt github repo.
       url: https://github.com/maxbeh/design-portfolio
-      icon: github-alt
+      icon: fab fa-github-alt
 ---
