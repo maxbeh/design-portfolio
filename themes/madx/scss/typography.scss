@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Moonrocks&family=Roboto+Slab');
+
+
+// * {
+//     font-family: 'Roboto', sans-serif;
+//     color: $font-color;
+// }
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    margin-left: 1rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        // font-family: "Rubik Moonrocks";
+        font-size: 3rem;
+        color: $font-color;
+        margin-bottom: 0;
+        letter-spacing: 0.2em;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}
+
+p {
+    font-size: $base-font-size;
+    font-family: 'Roboto Slab', serif;
+    color: $font-color;
+    margin-bottom: $magic-number;
+}
+
+.main {
+    color: $font-color;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: $magic-number;
+    }
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
