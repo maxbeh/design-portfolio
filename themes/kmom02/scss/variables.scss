@@ -3,3 +3,7 @@ $font-alternative-color: #27272c;
 $accent-color: #ee6c4d;
 $background-color: #27272c;
 $background-alternative-color: #c5c5ce;
+
+$base-line-height: 1.4;
+$base-font-size: 1.1rem;
+$magic-number: $base-line-height * $base-font-size;

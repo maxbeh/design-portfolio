@@ -1,11 +1,6 @@
-.flex, .flex-column, .flex-row {
-  display: flex;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-column {
-  flex-direction: column;
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@1,700&family=Oleo+Script&display=swap");
+.worst-ever {
+  letter-spacing: 1em;
+  line-height: 1em;
+  font-family: "Cousine";
 }
