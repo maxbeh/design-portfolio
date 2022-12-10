@@ -4,7 +4,7 @@ Description: This is my technologies page.
 Template: technologies
 ---
 
-Technology landingpage
+Technologies landingpage
 =====================================
 
 
