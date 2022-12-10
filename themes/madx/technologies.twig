@@ -1,0 +1,23 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        {# <ul>
+            {% for page in pages(current_page.id) %}
+                <li>
+                    <p>{{ page.raw_content }}</p>
+                </li>
+            {% endfor %}
+        </ul> #}
+        <div class="tech">
+            <p>rätt ställe</p>
+            {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
