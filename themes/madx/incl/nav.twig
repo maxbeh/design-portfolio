@@ -3,7 +3,10 @@
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="Site logotype" />
+                <picture>
+                    <source media="(min-width: 768px)" srcset="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="Site logotype" />
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.Logo2|url }}" alt="Site logotype" />
+                </picture>
             </a>
         </div>
         {% endif %}

@@ -3,7 +3,7 @@ Title: About
 Description: Page about this webpage
 ---
 
-Om hemsida
+Om hemsidan
 -----------------
 
 Denna hemsida är gjord under designkursen på BTH.

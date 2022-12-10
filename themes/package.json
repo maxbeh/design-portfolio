@@ -8,10 +8,11 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style-test": "sass kmom02/scss/test.scss kmom02/css/test.css --no-source-map",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "style": "sass madx/scss/style.scss madx/css/style.css --no-source-map",
+    "style-min": "sass madx/scss/style.scss sass madx/scss/style.min.scss --no-source-map --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass madx/scss/style.scss madx/css/style.css --no-source-map --watch",
+    "watch-min": "sass madx/scss/style.scss sass madx/scss/style.min.scss --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +22,8 @@
     "sass": "^1.56.1",
     "stylelint": "^14.14.1",
     "stylelint-config-sass-guidelines": "^9.0.1"
+  },
+  "dependencies": {
+    "lint-fix": "^0.24.0"
   }
 }
