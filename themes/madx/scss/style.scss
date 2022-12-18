@@ -25,3 +25,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 .active * {
     color: $accent-color !important;
 }
+
+img {
+    filter: brightness(1.2);
+}
+
+.main {
+    background-color: $custom-lighter;
+}

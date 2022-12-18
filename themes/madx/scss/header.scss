@@ -1,5 +1,5 @@
 .header {
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
 }
 
@@ -9,6 +9,8 @@
 
 .nav {
     flex-wrap: wrap;
+    display: flex;
+    align-items: flex-end;
 }
 
 .logo {

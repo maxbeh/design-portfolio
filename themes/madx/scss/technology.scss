@@ -15,7 +15,7 @@
 }
 
 .tech-div {
-    border: 1px solid $font-color;
+    border: 3px solid $font-color;
 
     a {
         text-decoration: none;
@@ -35,7 +35,7 @@
 }
 
 .tech-div:hover {
-    box-shadow: 10px 5px 2px $font-color;
+    box-shadow: 10px 5px 2px rgba(0, 0, 0, 0.4);
 
     h3 {
         text-decoration: underline;

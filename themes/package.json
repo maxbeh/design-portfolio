@@ -11,8 +11,13 @@
     "style": "sass madx/scss/style.scss madx/css/style.css --no-source-map",
     "style-min": "sass madx/scss/style.scss sass madx/scss/style.min.scss --no-source-map --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "sass madx/scss/style.scss madx/css/style.css --no-source-map --watch",
-    "watch-min": "sass madx/scss/style.scss sass madx/scss/style.min.scss --no-source-map --style compressed --watch"
+    "watch": "sass madx/scss/style.scss:madx/css/style.css madx/scss/style-dark.scss:madx/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass madx/scss/style.scss:madx/css/style.min.css madx/scss/style-dark.scss:madx/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style-dark": "sass madx/scss/style-dark.scss madx/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass madx/scss/style-dark.scss madx/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass madx/scss/style.scss madx/css/style.css --no-source-map",
+    "style-light-min": "sass madx/scss/style.scss madx/css/style.min.css --no-source-map --style compressed"
+
   },
   "keywords": [],
   "author": "",
