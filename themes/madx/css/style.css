@@ -6491,7 +6491,7 @@ body a {
   color: inherit;
 }
 body a:hover {
-  color: #D76A53;
+  color: #d76a53;
 }
 
 .main {
@@ -6520,6 +6520,7 @@ body a:hover {
 .header {
   justify-content: space-evenly;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .site-header {
@@ -6691,6 +6692,75 @@ pre code {
   color: #27272c;
 }
 
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 1em;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.loading-sheet {
+  width: 100%;
+  height: 400px;
+}
+
+p img + em {
+  display: flex;
+}
+
+td {
+  border: 1px solid #000;
+  background-color: #f5f5f5;
+}
+
+th,
+td {
+  padding: 0 1em;
+}
+
+/* grid.scss */
+.grid {
+  display: grid;
+  gap: 1em 1em;
+  grid-template-columns: 32% 32% 32%;
+}
+
+.grid h1 {
+  grid-column: span 3;
+  grid-row: 1/2;
+  justify-self: center;
+}
+
+.grid-div a {
+  text-decoration: none;
+}
+
+.grid-div:hover {
+  box-shadow: 10px 5px 2px rgba(0, 0, 0, 0.4);
+}
+.grid-div:hover h3 {
+  text-decoration: underline;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6750,10 +6820,12 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
-  .tech {
+  .tech,
+  .grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .tech * {
+  .tech *,
+  .grid * {
     height: fit-content;
     grid-column: 1/1;
     grid-row: auto;
@@ -6767,7 +6839,7 @@ pre code {
 }
 
 .active * {
-  color: #D76A53 !important;
+  color: #d76a53 !important;
 }
 
 img {
@@ -6775,5 +6847,5 @@ img {
 }
 
 .main {
-  background-color: #D3D3DB;
+  background-color: #d3d3db;
 }
