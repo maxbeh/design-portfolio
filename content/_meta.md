@@ -1,5 +1,6 @@
 ---
 Logo: assets/img/mb_logo_150.png
+# Logo2: assets/image/mb_logo_150.png
 Logo2: assets/img/mb_logo_50.png
 Tagline: My portfolio.
 Social:
