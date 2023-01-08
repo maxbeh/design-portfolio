@@ -6536,6 +6536,13 @@ body a:hover {
 .logo {
   margin-top: 15px;
 }
+.logo img {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.8));
+}
+
+.title h1, .title a {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
 
 .footer {
   display: flex;
@@ -6833,6 +6840,9 @@ td {
   .aside {
     display: none;
   }
+  .f-wrap {
+    flex-wrap: wrap;
+  }
 }
 .hidden {
   display: none !important;
@@ -6848,4 +6858,5 @@ img {
 
 .main {
   background-color: #d3d3db;
+  border-radius: 10px;
 }

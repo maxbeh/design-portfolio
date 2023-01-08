@@ -36,4 +36,7 @@ img {
 
 .main {
     background-color: $custom-lighter;
+    border-radius: 10px;
+    // background-image: repeating-linear-gradient(-26deg, rgba(137, 137, 143, 0.25), rgba(137, 137, 143, 0.25) 2px, transparent 3px, transparent 7px);
+    // background-size: 6px 8px;
 }
