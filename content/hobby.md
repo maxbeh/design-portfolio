@@ -1,7 +1,9 @@
 ---
-Title: Hobby
+Title: Hobby 
+  Title_hide: true
 Description: Page about my hobby
 ---
+
 
 Min hobby
 -----------------

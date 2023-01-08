@@ -1,7 +1,7 @@
 ---
-Logo: assets/img/mb_logo_150.png
+Logo: image/mb_logo_150.png
 # Logo2: assets/image/mb_logo_150.png
-Logo2: assets/img/mb_logo_50.png
+Logo2: image/mb_logo_50.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

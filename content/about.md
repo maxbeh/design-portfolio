@@ -1,5 +1,6 @@
 ---
 Title: About
+Title_hide: true
 Description: Page about this webpage
 ---
 

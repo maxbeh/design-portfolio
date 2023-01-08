@@ -1,5 +1,6 @@
 ---
 Title: Sub Page
+    Title_hide: true
 ---
 
 ## This is a Sub Page
